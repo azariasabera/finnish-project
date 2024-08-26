@@ -1,0 +1,26 @@
+{
+  "name": "chat-bot_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "frontend": "cd frontend && npm start",
+    "backend": "cd backend && npm run dev",
+    "dev": "concurrently \"npm run frontend\" \"npm run backend\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azariasabera/chat-bot_project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/azariasabera/chat-bot_project/issues"
+  },
+  "homepage": "https://github.com/azariasabera/chat-bot_project#readme",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
